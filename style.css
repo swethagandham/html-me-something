@@ -9,7 +9,7 @@ body {
 header,
 main,
 footer {
-	background-color: #ddd;
+	background-color: rgb(123, 243, 193);
 	font-size: 1.6em;
 }
 
@@ -38,11 +38,11 @@ section {
 }
 
 section:first-child {
-	margin-top: 0;
+	margin-top: 2;
 }
 
 section:last-child {
-	margin-bottom: 0;
+	margin-bottom: 2;
 }
 
 nav ul {
