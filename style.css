@@ -3,7 +3,7 @@ body {
 	max-width: 1024px;
 	margin: 0 auto;
 	background-color: rgba(243, 164, 17, 0.575);
-	font-size: 62.5%;
+	font-size: 60.5%;
 }
 
 header,
@@ -26,7 +26,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 2em;
 }
 
 main h2 {
@@ -37,13 +37,7 @@ section {
 	margin: 1.875em 0;
 }
 
-section:first-child {
-	margin-top: 2;
-}
 
-section:last-child {
-	margin-bottom: 2;
-}
 
 .navigation ul {
 	text-align: center;
@@ -60,11 +54,6 @@ p {
 	padding: 1.25em;
 }
 
-figure {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
 
 #foot {
 	text-align: center;
@@ -78,14 +67,10 @@ figure {
 img {
 	width: 100%;
 	max-width: 100%;
+	border: brown
 }
 
-@media screen and (max-width: 680px) {
-	nav ul li {
-		margin: 1em 0;
-		display: block;
-		font-size: 1em;
-	}
+
 	body {
 		font-size: 50%;
 	}
