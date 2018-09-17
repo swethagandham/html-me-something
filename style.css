@@ -8,7 +8,7 @@ body {
 
 header,
 main,
-footer {
+#foot {
 	background-color: rgb(123, 243, 193);
 	font-size: 1.6em;
 }
@@ -45,12 +45,12 @@ section:last-child {
 	margin-bottom: 2;
 }
 
-nav ul {
+.navigation ul {
 	text-align: center;
 	padding: 0;
 }
 
-nav ul li {
+.navigation ul li {
 	display: inline-block;
 	margin-right: 1em;
 	font-size: 0.75em;
@@ -66,12 +66,12 @@ figure {
 	text-align: center;
 }
 
-footer {
+#foot {
 	text-align: center;
 	padding: 3em;
 }
 
-footer p {
+#foot p {
 	display: inline-block;
 }
 
